@@ -1,0 +1,21 @@
+.sidebar{
+    background-color: #111111;
+    height: 100vh;
+    color: white;
+    border-right: 2px solid #cb450c88;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.myLogo{
+    padding: 20px 0;
+    border-bottom: 2px solid #80808033;
+}
+.myLogo a{
+    color: #e6e6e6;
+    text-decoration: none;
+}
+.sidebar-menu{
+    padding: 100px 0;
+}
+.sidebar-menu a{
+    margin: 20px 0;
+}
