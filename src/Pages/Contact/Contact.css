@@ -1,0 +1,107 @@
+.contact-area{
+    padding: 70px 50px;
+    background-color: #181818;
+    color: #E3E3E3;
+    display: flex;
+    align-items: center;
+}
+.contact-title{
+    font-family: 'Azeret Mono', monospace;
+    font-size: 100px;
+    font-weight: 800;
+}
+.contact-info{
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 15px;
+}
+.contact-info .cInfo-2 a{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #CB450C;
+    color: #E3E3E3;
+}
+.contact-info .cInfo-3 a{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #CB450C;
+    color: #E3E3E3;
+}
+label span{
+    color: #CB450C;
+}
+.fName label{
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+.fName input{
+    width: 100%;
+    padding: 12px 10px;
+    background: black;
+    border: 2px solid #E3E3E3;
+    color: #E3E3E3;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.fEmail label{
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+.fEmail input{
+    width: 100%;
+    padding: 12px 10px;
+    background: black;
+    border: 2px solid #E3E3E3;
+    color: #E3E3E3;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.fMessage label{
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+.fMessage textarea{
+    width: 100%;
+    padding: 12px 10px;
+    background: black;
+    border: 2px solid #E3E3E3;
+    color: #E3E3E3;
+    font-size: 14px;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.f-link{
+    
+}
+.f-link .btn{
+    border: 2px solid #e3e3e3;
+    color: #e3e3e3;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 20px 6px 20px;
+}
+.f-link .btn svg{
+    transition: 0.3s;
+}
+.f-link .btn:hover svg{
+    color: #CB450C;
+}
+
+.social-link a{
+    color: #E3E3E3;
+}
+.social-link a:hover{
+    color: #CB450C;
+}
+.social-link a svg{
+    font-size: 22px;
+    margin-right: 25px;
+}

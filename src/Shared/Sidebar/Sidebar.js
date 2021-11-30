@@ -14,7 +14,7 @@ const Sidebar = () => {
                     </NavLink>
                 </h2>
             </div>
-            <div className="sidebar-menu mt-4 d-flex flex-column">
+            <div className="sidebar-menu mt-5 d-flex flex-column">
                 {/* <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l1" to="/home">Home</NavLink> */}
                 <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l2" to="/about"><FontAwesomeIcon /> About</NavLink>
                 <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l3" to="/projects">Projects</NavLink>
