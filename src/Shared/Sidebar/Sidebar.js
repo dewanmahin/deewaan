@@ -14,14 +14,14 @@ const Sidebar = () => {
                     </NavLink>
                 </h2>
             </div>
-            <div className="sidebar-menu d-flex flex-column">
-                <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l1" to="/home">Home</NavLink>
-                <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l2" to="/about">About</NavLink>
+            <div className="sidebar-menu mt-4 d-flex flex-column">
+                {/* <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l1" to="/home">Home</NavLink> */}
+                <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l2" to="/about"><FontAwesomeIcon /> About</NavLink>
                 <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l3" to="/projects">Projects</NavLink>
                 <NavLink activeStyle={{borderBottom: '2px solid #CB450C', color: '#ebebeb'}} className="l4" to="/contact">Contact</NavLink>
-            </div>
-            <div className="sidebar-resume">
-                <a href='https://drive.google.com/uc?export=download&id=1YwdOYEhqqAV5dcspqE7ty4h8J5UnmNtw'><span>Resume</span> <FontAwesomeIcon style={{fontSize: '15px'}} icon={faDownload}/></a>
+                <div className="sidebar-resume mt-3">
+                    <a href='https://drive.google.com/uc?export=download&id=1YwdOYEhqqAV5dcspqE7ty4h8J5UnmNtw'><span>Resume</span> <FontAwesomeIcon style={{fontSize: '15px'}} icon={faDownload}/></a>
+                </div>
             </div>
         </div>
     );

@@ -1,7 +1,38 @@
 .home-area{
+    padding: 70px 50px;
     background-color: #181818;
-    color: white;
-    /* font-family: 'Syne Mono', monospace; */
-    /* font-family: 'Azeret Mono', monospace; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.name{
     font-family: 'Bebas Neue', cursive;
+    color: #1e1e1e;
+    font-size: 300px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 3px;
+    user-select: none
+}
+/* .name .D{
+
+}
+.name .M{
+
+}
+.name .C{
+    
+} */
+.position-title{
+    position: absolute;
+    right: 50px;
+}
+.position-title h2{
+    color: #e3e3e3;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
 }
