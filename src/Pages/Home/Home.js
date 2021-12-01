@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from '../../../Shared/Sidebar/Sidebar';
+import Sidebar from '../../Shared/Sidebar/Sidebar';
 import './Home.css'
 
 const Home = () => {

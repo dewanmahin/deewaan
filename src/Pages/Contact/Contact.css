@@ -1,9 +1,11 @@
 .contact-area{
-    padding: 70px 50px;
+    padding: 70px 70px;
     background-color: #181818;
     color: #E3E3E3;
-    display: flex;
     align-items: center;
+}
+.contact-text{
+    padding-right: 20px;
 }
 .contact-title{
     font-family: 'Azeret Mono', monospace;
@@ -37,7 +39,7 @@ label span{
 }
 .fName input{
     width: 100%;
-    padding: 12px 10px;
+    padding: 10px;
     background: black;
     border: 2px solid #E3E3E3;
     color: #E3E3E3;
@@ -53,7 +55,7 @@ label span{
 }
 .fEmail input{
     width: 100%;
-    padding: 12px 10px;
+    padding: 10px;
     background: black;
     border: 2px solid #E3E3E3;
     color: #E3E3E3;
@@ -69,7 +71,7 @@ label span{
 }
 .fMessage textarea{
     width: 100%;
-    padding: 12px 10px;
+    padding: 10px;
     background: black;
     border: 2px solid #E3E3E3;
     color: #E3E3E3;
@@ -77,9 +79,9 @@ label span{
     font-family: 'Azeret Mono', monospace;
 }
 
-.f-link{
+/* .f-link{
     
-}
+} */
 .f-link .btn{
     border: 2px solid #e3e3e3;
     color: #e3e3e3;
